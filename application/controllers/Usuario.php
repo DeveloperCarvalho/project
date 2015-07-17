@@ -11,14 +11,21 @@ class Usuario extends CI_Controller {
 	public function index()
 	{
       	$this->data['titulo'] = "login de acesso ao sistema";
+      	if(isset($_POST))
+      		$error = $this->verifica_login($_POST);
+
       	$this->load->view('login', $this->data);
+
 	}
 	public function home()
 	{
 		$this->load->view('login');
 	}
-	public function verifica_login()
+	public function verifica_login($data)
 	{
-		$this->load->view('login');
+		echo'<pre>';
+		var_dump($data);
+	
+		$this->load->view('usuario', $this->data);
 	}
 }
