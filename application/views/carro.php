@@ -1,10 +1,5 @@
-<title><?php echo $titulo; ?></title>
-   <?php
-   echo '<link rel="stylesheet" type="text/css" href="assets/bootstrap-3.3/css/bootstrap.min.css ">';
-    echo "<script src='".base_url('assets/bootstrap-3.3/js/bootstrap.min.js')."' type='text/javascript' language='javascript'></script>";
-
-?>
-   <div class="container">
+<?php require_once(base_url('view/header.php')); ?>
+<div class="container">
     <div class="row">
         <div class="col-sm-12 col-md-10 col-md-offset-1">
             <table class="table table-hover">

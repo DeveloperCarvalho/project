@@ -1,9 +1,9 @@
 <title><?php echo $titulo; ?></title>
-   <?php
-   echo '<link rel="stylesheet" type="text/css" href="assets/bootstrap-3.3/css/bootstrap.min.css ">';
-    echo "<script src='".base_url('assets/bootstrap-3.3/js/bootstrap.min.js')."' type='text/javascript' language='javascript'></script>";
-
+<?php
+    echo "<link rel='stylesheet' href='".base_url('assets/bootstrap/css/bootstrap.min.css')."'>";
+    echo "<script src='".base_url('assets/bootstrap/js/bootstrap.min.js')."' type='text/javascript' language='javascript'>";
 ?>
+
 <!--
 The MIT License (MIT)
 

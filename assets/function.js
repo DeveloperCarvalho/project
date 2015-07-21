@@ -139,3 +139,4 @@ var readyInterval = setInterval(function() {
         $form.find('[type=submit]').prop('disabled', false);
         clearInterval(readyInterval);
     }
+}, 250);
